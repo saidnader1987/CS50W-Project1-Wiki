@@ -1,0 +1,14 @@
+{% extends "encyclopedia/layout.html" %} 
+
+{% block nav %}
+  <a class="link-nav" href="{% url 'edit' entry %}">Edit</a>
+  <!-- <a class="link-nav" href="{% url 'edit' entry=entry %}">Edit</a> -->
+{% endblock %}
+
+{% block title %} 
+    {{entry}} 
+{% endblock%}
+
+{% block body %}
+    {{content|safe}}
+{% endblock %}

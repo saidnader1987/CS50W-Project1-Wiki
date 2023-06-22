@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    background-color: white;
+}
+
+code {
+    white-space: pre;
+}
+
+h1 {
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+textarea {
+    height: 90vh;
+    width: 80%;
+}
+
+.main {
+    padding: 10px;
+}
+
+.search {
+    width: 100%;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.sidebar {
+    background-color: #f0f0f0;
+    height: 100vh;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-top: 5px;
+}
+
+.link-nav:link, .link-nav:visited{
+    color: #343a40;
+    text-decoration: none;
+}
+
+.link-nav:hover, .link-nav:active{
+    color: #343a40;
+    text-decoration: none;
+}
+
+.link-entry:link, .link-entry:visited{
+    color: #343a40;
+    text-decoration: none;
+}
+
+.link-entry:hover, .link-entry:active{
+    color: #343a40;
+    text-decoration: none;
+}
+
+ul {
+    list-style:none;
+    padding-left: 10px;
+}
+
+.add-div{
+    height: 100%;
+}
+
+.add-form{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    /* height: 100vh; */
+}
+
+.row{
+    width:100%;
+}
+
+.main{
+    height: 100vh;
+    padding: 0 10px;
+    overflow: scroll;
+}
+
+.form-content{
+    width:90%;
+    height:300px;
+}
+
+.btn{
+    width: 128px;
+    height: 36px;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    color: #3c4043;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    border: 1px solid #dadce0;
+  }
+
+  .error-message{
+    width: 90%;
+  }
+
+  .edit-link{
+    display: block;
+  }
