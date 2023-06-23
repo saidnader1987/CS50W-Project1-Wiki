@@ -19,8 +19,6 @@ For detailed project requirements, refer to the project specifications on the CS
 
 To run this project locally, you need Python and pip installed on your system. If you don't have Python and pip installed, visit the [official Python website](https://www.python.org/downloads/) and follow the instructions there.
 
-```
-
 1. **Install the dependencies**
 
 ```
@@ -38,4 +36,3 @@ python manage.py runserver
 ```
 
 Then, open your browser and visit `http://localhost:8000` to see the application in action.
-```
