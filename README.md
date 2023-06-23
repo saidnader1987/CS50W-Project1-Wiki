@@ -2,6 +2,8 @@
 
 This project is part of the Harvard University's CS50W course on Web Programming with Python and JavaScript. It's an implementation of a simple online encyclopedia, similar to Wikipedia, using Django (without models), HTML, and CSS.
 
+Video Demo: https://www.youtube.com/watch?v=w3Y6UCwiG4Y
+
 ## Description
 
 This web application serves encyclopedia entries to users, which are stored as Markdown files. When a user requests to view an entry, the markdown file is converted to HTML for display in the browser. Features of the web application include:
